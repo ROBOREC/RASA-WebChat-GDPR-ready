@@ -1,4 +1,4 @@
- <script>
+<script>
     window.webchatSettings = {
         init_action: "Hi, how can I help you?",
         init_action_after_s: 5,
@@ -13,16 +13,16 @@
             {"title": "Problem 2", "payload": "/intent2"},
           ],
         }
-},
+    },
     function() {
         var t = window,
             e = document,
             a = function() {
                 var t = e.createElement("script");
-                t.type = "text/javascript", t.async = !0, t.src = "https://roborec.chat/widget-simple.js";
+                t.type = "text/javascript", t.async = !0, t.src = "https://yourserver.com/r_webchat.js";
                 var a = e.getElementsByTagName("script")[0];
                 a.parentNode.insertBefore(t, a)
             };
         t.attachEvent ? t.attachEvent("onload", a) : t.addEventListener("load", a, !1)
     }();
-    </script>
+</script>
