@@ -16,7 +16,7 @@ You can use this RASA webchat with an existing CMS platforms like Wordpress, Wix
 ```
     1) init_action -> text which will be sent by bot to the user proactively
     2) init_action_after_s -> after the specified number of seconds the message from 1) will be send
-    3) url -> url of your RASA rest channel (for example "https://example.roborec.chat")
+    3) url -> url of your RASA rest channel (for example "https://example.yourserver.com")
     4) submit_color -> css color name, hex or rgb (anything the css will recognize) - defaulting to #135afe
     5) webchat_color -> color of webchat (same format like No 4) - defaulting to #135afe
     6) actions_by_path -> you can set custom welcome texts / buttons for a defined page slug
@@ -24,7 +24,7 @@ You can use this RASA webchat with an existing CMS platforms like Wordpress, Wix
 ```
 
 ## Examples
-Simple RASA webchat, default color, no proactivity:
+1) Simple RASA webchat, default color, no proactivity:
 ```
     <script>
     window.webchatSettings = {
@@ -46,7 +46,7 @@ Simple RASA webchat, default color, no proactivity:
     </script>
 ```
 
-RASA webchat with welcome message "Hi, how can I help you?" after 5 seconds on any page BUT /test - where the message is "Welcome to TEST page. Select your question...":
+2) RASA webchat with welcome message "Hi, how can I help you?" after 5 seconds on any page BUT /test - where the message is "Welcome to TEST page. Select your question...":
 ```
     <script>
     window.webchatSettings = {
