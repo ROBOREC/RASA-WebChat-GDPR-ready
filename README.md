@@ -1,7 +1,7 @@
 # RASA-WebChat-GDPR-ready
 Roborec RASA webchat is a simple chat widget written in a plain javascript for an easy setup in the REST channel of AI assistants RASA platform. It supports welcome message with predefined payloads.
 
-Roborec webchat is GDPR ready, because it connects directly your server with an user browser. Commonly used RASA webchats send all user data through ngrok.io or Socket.io services (these services are not GDPR compliant).
+Roborec webchat is GDPR ready, because it connects directly your server with an users browser. Commonly used RASA webchats send all user data through ngrok.io or Socket.io services (these services are not GDPR compliant).
 
 Advanced version of the RASA webchat, incl. support, is available with standard Roborec chatbot & virtual assistant engine. It can be connected to RASA, IBM Watson Assistant (Conversations) or Google Dialogflow. For more, see https://roborec.biz/.
 
